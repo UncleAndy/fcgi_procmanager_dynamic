@@ -6,13 +6,13 @@ use base FCGI::ProcManager;
 # Public License, Version 3.  Please read the important licensing and
 # disclaimer information included below.
 
-# $Id: Dynamic.pm,v 0.6 2012/06/29 11:00:00 Andrey Velikoredchanin $
+# $Id: Dynamic.pm,v 0.7 2017/03/09 12:17:00 Andrey Velikoredchanin $
 
 use strict;
 
 use vars qw($VERSION);
 BEGIN {
-	$VERSION = '0.6';
+	$VERSION = '0.7';
 }
 
 use POSIX;
